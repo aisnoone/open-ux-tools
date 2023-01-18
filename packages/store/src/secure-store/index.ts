@@ -13,6 +13,7 @@ function getKeytar(log: Logger): typeof Keytar | undefined {
         log.warn(`Could not "require('keytar')". Trying VSCode's copy`);
         let vscode;
         try {
+            // eslint-disable-next-line import/no-extraneous-dependencies
             vscode = require('vscode');
         } catch (e) {
             log.warn(errorString(e));
