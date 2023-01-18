@@ -38,6 +38,7 @@
     "devDependencies": {
         "@types/i18next-fs-backend": "1.0.0",
         "@types/pluralize": "0.0.29",
+        "@types/vscode": "1.44.0",
         "@types/qs": "6.9.1",
         "fast-check": "2.19.0",
         "jest-extended": "0.11.5",
